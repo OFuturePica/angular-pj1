@@ -1,0 +1,23 @@
+h1 {
+  color: rgb(233, 131, 233);
+
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+
+}
+
+.flex-item{
+  background-color:darkorchid;
+  font-size: 30px;
+}
+
+.flex-item1{
+  flex-grow: 2;
+}
+.flex-item2{
+  flex-shrink: 1;
+}
